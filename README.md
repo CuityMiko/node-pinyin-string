@@ -1,5 +1,12 @@
 # node-pinyin-string
 
+[![Build Status][ci-img]][ci-url]
+[![Dependency Status][dep-img]][dep-url]
+[![Dev Dependency Status][dev-dep-img]][dev-dep-url]
+[![NPM version][npm-ver-img]][npm-url]
+[![NPM downloads][npm-dl-img]][npm-url]
+[![NPM license][npm-lc-img]][npm-url]
+
 [![Build Status](https://travis-ci.org/poppinlp/node-pinyin-string.svg?branch=master)](https://travis-ci.org/poppinlp/node-pinyin-string)
 [![Dependency Status](https://david-dm.org/poppinlp/node-pinyin-string.svg)](https://david-dm.org/poppinlp/node-pinyin-string)
 [![devDependency Status](https://david-dm.org/poppinlp/node-pinyin-string/dev-status.svg)](https://david-dm.org/poppinlp/node-pinyin-string#info=devDependencies)

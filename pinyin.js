@@ -1,14 +1,4 @@
-/*
- * pinyin-string
- * https://github.com/poppinlp/node-pinyin-string
- *
- * Copyright (c) 2014 "PoppinLp" Liang Peng
- * Licensed under the MIT license.
- */
-
-'use strict';
-
-var pinyin = require('pinyin');
+const pinyin = require('pinyin');
 
 module.exports = function (han, options) {
     return pinyin(han, options || {}).join(options ? (options.sep || '') : '');

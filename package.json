@@ -1,6 +1,6 @@
 {
     "name": "pinyin-string",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "description": "Convert chinese to pinyin string.",
     "main": "pinyin.js",
     "repository": {
@@ -18,18 +18,24 @@
     "license": "MIT",
     "readmeFilename": "README.md",
     "engines": {
-        "node": ">= 0.8.0"
+        "node": ">= 4.0.0"
     },
     "dependencies": {
-        "pinyin": ">=2.3.3"
+        "pinyin": "^2.8.3"
     },
     "keywords": [
-        "node",
-        "nodejs",
         "chinese",
-        "pinyin"
+        "pinyin",
+        "中文",
+        "拼音",
+        "汉字",
+        "汉语"
     ],
     "scripts": {
-        "test": "node demo.js"
+        "test": "node demo.js",
+        "upDep": "./node_modules/.bin/ncu -na"
+    },
+    "devDependencies": {
+        "npm-check-updates": "^2.12.0"
     }
 }
